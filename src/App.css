@@ -1,0 +1,43 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+#input {
+  width: 500px;
+  height: 60px;
+  margin: 10px;
+  border-radius: 15px;
+}
+#input::placeholder{
+  padding-left: 15px;
+}
+#btn:hover{
+  background-color: black;
+}
+#btn {
+  width: 200px;
+  height: 60px;
+  background-color: blue;
+  border: none;
+  cursor: pointer;
+  color: cornsilk;
+  font-style: italic;
+  font-weight: 900;
+  font-size: x-large;
+  border-radius: 10px;
+}
+.container {
+  column-count: 3; 
+  padding: 10px 12px;
+}
+.container.pictures {
+  margin: 10px;
+  cursor: pointer;
+}
+.pictures {
+  border: 2px solid black;
+  margin: 1px 1px;
+  margin: 10px;
+  width: 400px;
+  height: 500px;
+}
